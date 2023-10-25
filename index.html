@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income and Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Income and Expense Tracker</h1>
+    <input type="text" id="descriptionInput" placeholder="Description">
+    <input type="number" id="amountInput" placeholder="Amount">
+    <select id="typeInput">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <button onclick="addTransaction()">Add Transaction</button>
+    <ul id="transactionList" class="transaction-list"></ul>
+    <div id="total" class="total">Total: $0</div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

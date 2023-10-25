@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #64ccc5;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.transaction-list li span {
+  flex-grow: 1;
+}
+
+.transaction-list li button {
+  margin-left: 10px;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+.total {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+}
+
+
+
